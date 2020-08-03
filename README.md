@@ -27,3 +27,8 @@ Interfaz de Programación de Aplicaciones. Interfaz para que se comuniquen aplic
 ## BBDD
 
 Conjunto de información almacenado y consultado sistemáticamente (relacionales, NoSQL, autogestionadas...)
+
+## Notación O grande
+
+Análisis de algoritmos para estimar consumo de recursos de un algoritmo. Razon de crecimiento: razón a la cual el costo de un algoritmo crece conforme el tamaño de la entrada crece (eficiencia)
+
