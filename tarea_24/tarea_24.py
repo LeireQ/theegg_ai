@@ -22,5 +22,7 @@ while 1:
         resto.append(numero)
         resto = resto[::-1]
 
+        result = "".join(map(str,resto))
+
         print("Número en binario ")
-        print(resto)
+        print(result)
