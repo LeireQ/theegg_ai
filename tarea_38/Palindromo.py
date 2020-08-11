@@ -37,3 +37,5 @@ while 1:
                 print("El menor primo palíndromo es: ")
                 print(i)
                 break
+            elif i == NUMERO_MAXIMO-1:
+                print("No hay palíndromo primo para ese número")
