@@ -25,4 +25,4 @@ Sé que esto último puede sonar raro, ¿quién canta Annie semidesudo y congela
 Irlanda con un señor que acaba de conocer? Pero? seguro que a ti también te han pasado cosas así."
 
 
-La variable text se puede sustituir por cualquier otro texto
+NOTA: La variable "text" se puede sustituir por cualquier otro texto
