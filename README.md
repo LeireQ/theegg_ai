@@ -34,6 +34,20 @@ Análisis de algoritmos para estimar consumo de recursos de un algoritmo. Razon 
 
 ## Redes
 
+- Packet-tracer: software de simulación de redes (CISCO)
+
+- Red informática: conjunto de equipos conectados entre sí capaces de intercambiar información.
+
+- Internet: red WAN (Wide Area Network) más grande que existe. Protocolo TCP/IP.
+- WWW: (Worl Wide Web) Es un servicio sobre la infraestructua Internet.
+
+- Red PAN: Personal Area Network (ejemplo hogar)
+- Red LAN: Local Area Network (ejemplo ofinas)
+- Red MAN: Metropolitan Area Network (ejemplo empresas grandes)
+- Red WAN: Wide Area Network (ejemplo internet)
+- Red GAN: Global Area Network (ejemplo companía internacional)
+- Topologías de redes: ring, mesh, star, line, tree, bus, fully connect
+
 - Router: gestor que conecta el ordenador con las redes (puesta de enlace, gateway)
 - Hub: conecta varios dispositivos a una red interna. Tiene varios puertos ethernet (el envío de datos se da a todos los dispositivos conectados)
 - Switch: un hub inteligente, se aprende las direcciones físicas de los dispositivos conectados (MARC) reduce tráfico y es más seguro que hub
