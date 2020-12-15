@@ -33,21 +33,6 @@ Conjunto de información almacenado y consultado sistemáticamente (relacionales
 Análisis de algoritmos para estimar consumo de recursos de un algoritmo. Razon de crecimiento: razón a la cual el costo de un algoritmo crece conforme el tamaño de la entrada crece (eficiencia)
 
 ## Redes
-
-- Packet-tracer: software de simulación de redes (CISCO)
-
-- Red informática: conjunto de equipos conectados entre sí capaces de intercambiar información.
-
-- Internet: red WAN (Wide Area Network) más grande que existe. Protocolo TCP/IP.
-- WWW: (Worl Wide Web) Es un servicio sobre la infraestructua Internet.
-
-- Red PAN: Personal Area Network (ejemplo hogar)
-- Red LAN: Local Area Network (ejemplo ofinas)
-- Red MAN: Metropolitan Area Network (ejemplo empresas grandes)
-- Red WAN: Wide Area Network (ejemplo internet)
-- Red GAN: Global Area Network (ejemplo companía internacional)
-- Topologías de redes: ring, mesh, star, line, tree, bus, fully connect
-
 - Router: gestor que conecta el ordenador con las redes (puesta de enlace, gateway)
 - Hub: conecta varios dispositivos a una red interna. Tiene varios puertos ethernet (el envío de datos se da a todos los dispositivos conectados)
 - Switch: un hub inteligente, se aprende las direcciones físicas de los dispositivos conectados (MARC) reduce tráfico y es más seguro que hub
@@ -56,6 +41,17 @@ Análisis de algoritmos para estimar consumo de recursos de un algoritmo. Razon 
 - MAC: matrícula del pc
 - DNS: Domain Name System (traduce el nombre del buscador a su IP)
 - HTTP: protocolo de transferencia de hipertexto
+----------------------------------------------------------
+- Packet-tracer: software de simulación de redes (CISCO)
+- Red informática: conjunto de equipos conectados entre sí capaces de intercambiar información.
+- Internet: red WAN (Wide Area Network) más grande que existe. Protocolo TCP/IP.
+- WWW: (Worl Wide Web) Es un servicio sobre la infraestructua Internet.
+- Red PAN: Personal Area Network (ejemplo hogar)
+- Red LAN: Local Area Network (ejemplo ofinas)
+- Red MAN: Metropolitan Area Network (ejemplo empresas grandes)
+- Red WAN: Wide Area Network (ejemplo internet)
+- Red GAN: Global Area Network (ejemplo companía internacional)
+- Topologías de redes: ring, mesh, star, line, tree, bus, fully connect
 
 ## Seguridad
 
