@@ -79,3 +79,11 @@ Análisis de algoritmos para estimar consumo de recursos de un algoritmo. Razon 
  - Machine learning: capacidad de una máquina o SE para aprender mediante la adaptación de algoritmos de su programación respecto a la entrada de datos (aprendizaje supervisado, aprendizaje no supervisado, aprendizaje por refuerzo)
  - Deep learning: es un tipo de machine learning que permite entrenar a una computadorapara que realice taread de forma similar a como las realizan los seres humanos
 
+ ## HTML
+ 
+ - HTML: Hypertext Markup Language. Lenguaje de marcado qu los navegadores saben interpretar.
+ - CSS: lenguaje que define la apariencia de un documento escrito en lenguaje marcado.
+ - JavaScript: lenguaje de programación que funciona de manera nativa en los navegadores (lenguaje interpretado).
+ - Responsive Design: técnica que permite tener una misma web adaptada a las diferentes plataformas (PC, tablet, smartphone) (librería: bootstrap).
+ - API tensorflow.js: permite hacer IA en el navegador.
+ 
