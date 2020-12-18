@@ -87,3 +87,12 @@ Análisis de algoritmos para estimar consumo de recursos de un algoritmo. Razon 
  - Responsive Design: técnica que permite tener una misma web adaptada a las diferentes plataformas (PC, tablet, smartphone) (librería: bootstrap).
  - API tensorflow.js: permite hacer IA en el navegador.
  
+ ## SQL
+ 
+ - SQL: Structure Query Language. Lenguaje de consulta estructurada utilizado para administrar y recuperar informacion desde sistemas de gestión de BBDD relacionales (Ejemplo comandos: SELECT, WHERER, INSERT, DELETE, UPDATE)
+ - BBDD relacional: colección de elementos de datos organizados en un conjunto de tablas conformadas por filas y columnas a través de las cuales se puede acceder a la información para leerla, cambiarla, borrarla o insertar nuevos datos.
+ - Datos estructurados: normalmente archivos de texto en formato tabla, hojas de cálculo o BBDD relacionales con títulos en cada catergoría que permite identificarlos. Los datos pueden ser ordenados y procesados fácilmente por herramientas de minería de datos.
+ - Datos no estructurados: datos binarios que no tienen estructura interna identificable. Conglomerado masivo y desorganizado.
+ - IA: combinación entre estadística, matemáticas e informática para organizar e interpretar datos de diferentes fuentes y extraer conocieminto para posteriormente extrapolarlo y generalizarlo.
+ 
+ 
