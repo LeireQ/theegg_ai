@@ -1,3 +1,3 @@
-#TAREA 43
+# Tarea_43
 
 11 ejemplos de consultas SQL
