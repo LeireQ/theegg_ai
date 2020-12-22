@@ -103,3 +103,7 @@ Análisis de algoritmos para estimar consumo de recursos de un algoritmo. Razon 
  - Notación asintótica: permite respresentar la complejidad de los algoritmos de manera independiente al HW (ejemplo: notación O Grande. Coste de un algoritmo en función de los parámetros de entrada)
 - Notación O Grande: herramienta funcional para determinar la complejidad de un algoritmo, trata de medir el número de operaciones (como unidad básica de cálculo) para resolver un problema dado. Términos de complejidad: constante(O(1)), lineal(O(n)), logarítmica(O(log n)), cuadrática(O(n^2)), exponencial(O(2^n)), explosión combinatoria(O(n!)) 
  
+  ## Estadística descriptiva
+ 
+ - Estadística descriptiva: organiza, reúne y comunica información numérica. Tendencia central: media, mediana, moda. Medidas de dispersión: varianza, desviación estándar, rango. Medidas de distribución:campana de Gauss (simetría, curtosis)
+ - Etapas de un proceso de análisis de datos: definir el problema, recolección de datos, limpieza de datos, exploración mediante estadística descriptiva, análisis mediante estadística inferencial, conclusiones.
