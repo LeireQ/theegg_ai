@@ -95,4 +95,11 @@ Análisis de algoritmos para estimar consumo de recursos de un algoritmo. Razon 
  - Datos no estructurados: datos binarios que no tienen estructura interna identificable. Conglomerado masivo y desorganizado.
  - IA: combinación entre estadística, matemáticas e informática para organizar e interpretar datos de diferentes fuentes y extraer conocieminto para posteriormente extrapolarlo y generalizarlo.
  
+  ## Rendimiento de las aplicaciones IA
+ 
+ - Concurrencia: capacidad de ejecutar un programa o parte en desorden sin afectar al resultado final
+ - Latencia: tiempo que tarda en transmitirse un paquete dentro de la red
+ - Eficiencia algorítmica: término usado para describir aquellas propiedades de los algoritmos que están relacionadas con la cantidad de recursos utilizados. (la eficiencia depende de lo que se considere prioritario: complejidad de tiempo, complejidad de espacio)
+ - Notación asintótica: permite respresentar la complejidad de los algoritmos de manera independiente al HW (ejemplo: notación O Grande. Coste de un algoritmo en función de los parámetros de entrada)
+- Notación O Grande: herramienta funcional para determinar la complejidad de un algoritmo, trata de medir el número de operaciones (como unidad básica de cálculo) para resolver un problema dado. Términos de complejidad: constante(O(1)), lineal(O(n)), logarítmica(O(log n)), cuadrática(O(n^2)), exponencial(O(2^n)), explosión combinatoria(O(n!)) 
  
