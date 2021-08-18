@@ -89,13 +89,16 @@ class Cuenta():
 
 
 if __name__ == '__main__':
+    #se crea una persona
     persona1 = Persona('Ana', 42, '65004204V')
     persona1.mostrar()
+    #se crea una cuenta para esa persona
     cuenta1 = Cuenta(persona1, 1000.0)
     cuenta1.ingresar(40)
     cuenta1.retirar(5)
     cuenta1.mostrar()
 
+    #se crea otra cuenta y otra persona
     persona2 = Persona('Jon', 19, '65004204V')
     cuenta2 = Cuenta(persona2, 20)
     cuenta2.retirar(5)
