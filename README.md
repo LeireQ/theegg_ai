@@ -112,3 +112,11 @@ Análisis de algoritmos para estimar consumo de recursos de un algoritmo. Razon 
  
  - Búsqueda secuencial: compara uno a uno los elementos con el argumento de búsqueda.
  - Búsqueda binaria: se compara el elemento central con el arguemnto de búsqueda. Si es mayor/menor se eliminan la mitad de los datos y se vuelve a tomar un elemento central. El vector tiene que estar ordenado. Es más rápido que el secuencial.
+
+ ## Algoritmos de compresión-descompresión
+ 
+ Tipos de compresión:
+ - Compresión sin pérdida: no se pierden datos en la descompresión. Mantiene la calidad pero no se reduce tanto el tamaño en la compresión.
+ - Compresión con pérdida: se pierden datos, pero sin afectar al consumidor final. Al descomprimir el archivo será menor que el inicial.
+ 
+ Tipos de algoritmos: codificación Huffman, RLE, Brotli, Zip, Rar, LZ77, 7zip, Gzip...
