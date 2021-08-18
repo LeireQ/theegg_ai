@@ -46,13 +46,6 @@ def binarysearch(num_list, num):
         binary_iteration = -1
     return binary_iteration
 
-
-def randomlistgenerator(n):
-      randomlist = [0]  * n
-      for i in range(n):
-          randomlist[i] = random.randint(0, n-1)
-      return randomlist
-
 def bigo(n):
     randomlist = [0]  * n
     #se genera lista aleatoria
