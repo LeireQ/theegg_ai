@@ -120,3 +120,15 @@ Análisis de algoritmos para estimar consumo de recursos de un algoritmo. Razon 
  - Compresión con pérdida: se pierden datos, pero sin afectar al consumidor final. Al descomprimir el archivo será menor que el inicial.
  
  Tipos de algoritmos: codificación Huffman, RLE, Brotli, Zip, Rar, LZ77, 7zip, Gzip...
+ 
+  ## Introducción a POO
+  
+  - POO: para estructurar un programa de SW en piezas simples y reutilizables. Los objetos contienen métodos y atributos.
+  - Clase: definiciones de las propiedades y comportamiento de un tipo de objeto concreto.
+  - Instancia: lectura de estas definiciones y creación de objetos.
+  - Objeto: instancia de una clase. Entidad compuesta por unas propiedades/atributos (datos) y de funcionalidades(métodos).
+  - Método: lo que un objeto puede hacer.
+  - Atributo: carcterísticas de una clase.
+  - Herencia: una clase que hereda a otra puede añadir nuevos atributos, ocultarlos, añadir métodos o redefinirlos.
+  - Encapsulación: en Python todos los atributos de una clase son públicos. Guion bajo indica que el atributo no debería usarse fuera.
+  - Polimorfismo: capacidad de una entidad de referenciar en tiempo de ejecución a instacias de diferentes clases.
