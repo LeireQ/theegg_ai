@@ -107,3 +107,8 @@ Análisis de algoritmos para estimar consumo de recursos de un algoritmo. Razon 
  
  - Estadística descriptiva: organiza, reúne y comunica información numérica. Tendencia central: media, mediana, moda. Medidas de dispersión: varianza, desviación estándar, rango. Medidas de distribución:campana de Gauss (simetría, curtosis)
  - Etapas de un proceso de análisis de datos: definir el problema, recolección de datos, limpieza de datos, exploración mediante estadística descriptiva, análisis mediante estadística inferencial, conclusiones.
+
+ ## Algoritmos de búsqueda
+ 
+ - Búsqueda secuencial: compara uno a uno los elementos con el argumento de búsqueda.
+ - Búsqueda binaria: se compara el elemento central con el arguemnto de búsqueda. Si es mayor/menor se eliminan la mitad de los datos y se vuelve a tomar un elemento central. El vector tiene que estar ordenado. Es más rápido que el secuencial.
