@@ -132,3 +132,13 @@ Análisis de algoritmos para estimar consumo de recursos de un algoritmo. Razon 
   - Herencia: una clase que hereda a otra puede añadir nuevos atributos, ocultarlos, añadir métodos o redefinirlos.
   - Encapsulación: en Python todos los atributos de una clase son públicos. Guion bajo indica que el atributo no debería usarse fuera.
   - Polimorfismo: capacidad de una entidad de referenciar en tiempo de ejecución a instacias de diferentes clases.
+
+  ## Los sistemas operativos
+  
+  - SO: un SW que actúa como interfaz entre los componentes del HW del ordenador y el usuario.
+  Principales componetes:
+  - Kernel: responsable de arrancar el propio sistema y proporcionar control sobre los componentes HW.
+  - Interfaz de usuario: permite al usuario interaccionar con el ordenador. Gráfica o por línea de comandos.
+  - Driver: SW que permite al sistema interactuar con cualquier periférico.
+  - Sistema de archivos: encargado de asignar el espacio a los archivos.
+
