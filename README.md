@@ -151,5 +151,4 @@ Análisis de algoritmos para estimar consumo de recursos de un algoritmo. Razon 
   - Colas: operacion de inserción por un lado, extracción por el otro (FIFO).
   - Grafos: los datos tienen relaciones entre ellos, no necesariamente jerárquicas.
   - Árboles: imita estructura jerárquica de un árbol, valor raíz y subárboles con un nodo padre.
-  - 
-  Operaciones comunes con estructuras de datos: búsqueda, inserción, eliminación, ordenación.
+  - Operaciones comunes con estructuras de datos: búsqueda, inserción, eliminación, ordenación.
