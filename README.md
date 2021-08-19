@@ -160,3 +160,8 @@ Análisis de algoritmos para estimar consumo de recursos de un algoritmo. Razon 
   - Pruebas de estimación puntual: cuando se usa un solo valor extraído de la muestra para estimar el parámetro desconocido de la población.
   - Pruebas paramétricas y no paramétricas: las paramétricas asumen distribuciones estadísticas. Las no paramétricas no deben ajustarse a ninguna destribución.
   - Metodología: planteamiento del problema, elaboración del modelo, extracción de la muestra, tratamiento de los datos, estimación de los parámetros, constraste de hipótesis, conclusiones.
+
+  ## Pentesting
+  
+  - Pentest o test de penetración: es un método para evaluar los sistemas de información y red digital de una organización simulando un ataque.
+  - Tipos: black box, grey box, white box.
