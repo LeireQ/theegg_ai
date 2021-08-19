@@ -165,7 +165,12 @@ Análisis de algoritmos para estimar consumo de recursos de un algoritmo. Razon 
   
   - Pentest o test de penetración: es un método para evaluar los sistemas de información y red digital de una organización simulando un ataque.
   - Tipos: black box, grey box, white box.
-  - 
+  
  ## Linea de comandos en Linux y Windows
   
   - Linea de comandos/cmd/consola/terminal: aplicación basada en texto para ver, manejar, manipular archivos en el ordenador.
+ 
+ ## Bash scripting
+  
+  - Mediante instrucciones bash el administrador de la computadora podrá automatizar acciones repetitivas.
+  - Scripting: técnica de diseñar y crear scripts mediante un Shell.
