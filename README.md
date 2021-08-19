@@ -142,3 +142,13 @@ Análisis de algoritmos para estimar consumo de recursos de un algoritmo. Razon 
   - Driver: SW que permite al sistema interactuar con cualquier periférico.
   - Sistema de archivos: encargado de asignar el espacio a los archivos.
 
+  ## Estructura de datos
+  
+  - Estructura de datos: una forma particular de organizar datos en una computadora para que puedan ser utilizados de manera eficiente.
+  - Array: almacena los datos uno al lado del otro, unidimensionales, bidimensionales, multidimensionales.
+  - Listas enlazadas: registros que contienen un dato y un enlace al siguiente elemento.
+  - Pilas: listas que solo pueden eliminar o insertar en la cima de la lista (LIFO).
+  - Colas: operacion de inserción por un lado, extracción por el otro (FIFO).
+  - Grafos: los datos tienen relaciones entre ellos, no necesariamente jerárquicas.
+  - Árboles: imita estructura jerárquica de un árbol, valor raíz y subárboles con un nodo padre.
+  Operaciones comunes con estructuras de datos: búsqueda, inserción, eliminación, ordenación.
