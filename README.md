@@ -136,6 +136,7 @@ Análisis de algoritmos para estimar consumo de recursos de un algoritmo. Razon 
   ## Los sistemas operativos
   
   - SO: un SW que actúa como interfaz entre los componentes del HW del ordenador y el usuario.
+  
   Principales componetes:
   - Kernel: responsable de arrancar el propio sistema y proporcionar control sobre los componentes HW.
   - Interfaz de usuario: permite al usuario interaccionar con el ordenador. Gráfica o por línea de comandos.
