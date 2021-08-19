@@ -152,3 +152,10 @@ Análisis de algoritmos para estimar consumo de recursos de un algoritmo. Razon 
   - Grafos: los datos tienen relaciones entre ellos, no necesariamente jerárquicas.
   - Árboles: imita estructura jerárquica de un árbol, valor raíz y subárboles con un nodo padre.
   - Operaciones comunes con estructuras de datos: búsqueda, inserción, eliminación, ordenación.
+
+  ## Estadística inferencial para novatos
+  
+  - Estadística inferencial: se encarga de hacer deducciones, inferir propiedades, llegar a conclusiones y describir tendencias a partir de una muestra represenetativa.
+  - Pruebas de estimación puntual: cuando se usa un solo valor extraído de la muestra para estimar el parámetro desconocido de la población.
+  - Pruebas paramétricas y no paramétricas: las paramétricas asumen distribuciones estadísticas. Las no paramétricas no deben ajustarse a ninguna destribución.
+  - Metodología: planteamiento del problema, elaboración del modelo, extracción de la muestra, tratamiento de los datos, estimación de los parámetros, constraste de hipótesis, conclusiones.
