@@ -1,0 +1,7 @@
+Mi definición: 
+La inteligencia artificial es la capacidad de aprender que se da a los ordenadores mediante algoritmos y grandes cantidades de datos. Esa capacidad de aprender, rectificar, modificar los aprendizajes, reducir sesgos etc permite realizar tareas "humanas" que normalmente serían muy complicadas para un ordenador.
+
+Otros usos de IA:
+-En transporte para optimizar el tráfico o las rutas de reparto
+-En industria para el mantenimiento predictivo
+
