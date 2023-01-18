@@ -1,0 +1,30 @@
+Ejercicio 1: Utilizando el operador $regex, encuentra el número de personas que tienen un nombre que empieza por ‘Mar’. Ten en cuenta que la “M” es importante que sea mayúscula.
+
+use BBDD_PRUEBA;
+db.users.find({name:{ $regex: /^Mar/}},{name:1});
+
+***************
+
+Ejercicio 2: Encuentra a las 2 primeras personas que tengan un nombre que empiece por la letra M y un apellido que empiece por la letra L.
+
+db.users.find({$and:[{name:{$regex: /^M/}},{last_name:{$regex: /^L/}}]}, {name:1,last_name:1}).limit(2);
+
+***************
+
+Ejercicio 3: Utilizando el operador $regex, encuentra los documentos cuyo nombre empieza por cualquiera de las letras de la “a” a la “m” seguido de la letra “r” y cuyo apellido empieza por las letras de la “a” a la “c”. (Sin importar mayúsculas o minúsculas).
+
+db.users.find({$and:[{name:{$regex: /^[a-m][r]/i}},{last_name: {$regex:/^[a-c]/i}}]}, {name:1,last_name:1});
+
+***************
+
+Ejercicio 4: Encuentra los documentos de las ciudades que empiecen por “Ma” de las nacionalidades francesas y simula un email para que siga el siguiente ejemplo:
+
+- ane.cotillard@example.com - ane_fr_cotillard@theegg.org 
+
+db.users.find({$and:[{city:{$regex: /^Ma/}},{nat:"FR"}]}, {_id:0, email:{$concat:[{$toLower:"$name"},".",{$toLower:"$last_name"},"@example.com"," - ", {$toLower:"$name"},"_", {$toLower:"$nat"},"_",{$toLower:"$last_name"}, "@theegg.org"]}})
+
+***************
+
+Ejercicio 5: Encontrar los documentos de la colección peliculas correspondientes a las películas cuya primera letra del título empieza por las letras que van desde la “a” hasta la “m” y cuya fecha de estreno se dio entre 1980-01-10 y 1990-01-10, ambas fechas incluidas.
+
+db.peliculas.find({$and:[{fecha_estreno:{$gt:ISODate("1980-01-10")}},{fecha_estreno:{$lt:ISODate("1990-01-10")}},{titulo:{$regex:/^[a-m]/i}}]})
