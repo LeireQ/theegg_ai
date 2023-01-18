@@ -1,0 +1,122 @@
+Ejercicio 1: Crea tu validador para la colección de comentario.
+
+db.createCollection("comentario", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         title: "Comments Object Validation",
+         required: [ 
+            "fecha_comentario",
+            "mensaje_comentario",
+            "num_likes"
+            ],
+         properties: {
+            fecha_comentario: {
+               bsonType: "date",
+               description: "'fecha_comentario' must be a date and is required"
+            },
+            mensaje_comentario: {
+               bsonType: "string",
+               description: "'mensaje_comentario' must be a string and is required"
+            },
+            num_likes: {
+               bsonType: "int",
+               description: "'num_likes' must be a int and is required"
+            }
+         }
+      }
+   }
+} )
+
+*****
+
+Ejercicio 2: Inserta un único documento para la colección de post.
+
+db.post.insertOne({
+    "titulo":"El tiempo hoy",
+    "contenido":"El tiempo hoy será nubado con posibilidad de lluvia. Las temperaturas irán de 5ºC a 10ºC",
+    "fecha_creacion":new ISODate("2022-07-23"),
+    "tiempo_lectura_estimado": 300,
+    "num_likes": 2,
+    "num_shares": 5,
+    "num_comments": 1
+});
+
+*****
+
+Ejercicio 3: Inserta un único documento para la colección de comentario provocando que falle gracias a validar el documento.
+
+db.comentario.insertOne({
+    "fecha_comentario":new ISODate("2022-07-23"),
+    "mensaje_comentario":"Qué frío",
+    "num_likes":"muchos likes"
+});
+
+*****
+
+Ejercicio 4: Inserta varios documentos para las colecciones de post y comentario. Ten en cuenta el id proporcionado a las colecciones de post y usuarix a la hora de insertar los documentos. También considera que solo lxs usuarixs con rol de creador pueden agregar posts.
+
+db.post.insertMany([{
+    "titulo":"El tiempo el lunes",
+    "contenido":"El tiempo el lunes será nubado con posibilidad de lluvia. Las temperaturas irán de 5ºC a 10ºC",
+    "fecha_creacion":new ISODate("2022-07-23"),
+    "tiempo_lectura_estimado": 300,
+    "num_likes": 3,
+    "num_shares": 6,
+    "num_comments": 2
+},
+{
+    "titulo":"El tiempo mañana",
+    "contenido":"El tiempo hoy será nubado con posibilidad de lluvia. Las temperaturas irán de 5ºC a 10ºC",
+    "fecha_creacion":new ISODate("2022-07-23"),
+    "tiempo_lectura_estimado": 150,
+    "num_likes": 2,
+    "num_shares": 5,
+    "num_comments": 1
+},
+{
+    "titulo":"El tiempo ayer",
+    "contenido":"El tiempo ayer fue nubado con posibilidad de lluvia. Las temperaturas irán de 5ºC a 10ºC",
+    "fecha_creacion":new ISODate("2022-07-23"),
+    "tiempo_lectura_estimado": 200,
+    "num_likes": 6,
+    "num_shares": 9,
+    "num_comments": 0
+}])
+
+
+
+db.comentario.insertMany([{
+    "fecha_comentario":new ISODate("2022-07-23"),
+    "mensaje_comentario":"Qué frío",
+    "num_likes":3
+},
+{
+    "fecha_comentario":new ISODate("2022-09-11"),
+    "mensaje_comentario":"No hace frío",
+    "num_likes":1
+
+},
+{
+    "fecha_comentario":new ISODate("2023-01-05"),
+    "mensaje_comentario":"Hace casi hasta sol",
+    "num_likes":5
+
+}])
+
+*****
+
+Ejercicio 5: Parece que Miriam lleva un tiempo inactiva. Actualiza el campo activx de true a false.
+
+db.usuarix.updateOne(
+  { username: "Miriam" },
+  { $set: { activx: false } }
+);
+
+*****
+
+Ejercicio 6: Actualiza todos los documentos de la colección usuarix para que en el campo de rol todos tengan el rol de “lector”.
+
+db.usuarix.updateOne( 
+    {"rol":{$exists:true}}, 
+    { $set: { rol: ["lector"]} } );
