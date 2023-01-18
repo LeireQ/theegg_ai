@@ -1,0 +1,112 @@
+[ {
+    "name": "Manuel",
+    "last_name": "González",
+    "email": "mgonzalez@cbnc.com",
+    "age": "1992-12-12",
+    "profesion": "Pianista",
+    "salario_mensual_actual": 2500,
+    "formacion_academica": {
+      "universidad": "ehu",
+      "fp": "ils",
+      "bachillerato": "ils"
+    },
+    "exp_profesional": {
+      "orquesta_sinfónica_euskadi":["Pianista",2]
+    },
+    "aficiones": {
+      "verano": "playa",
+      "invierno": ["ski", "snow"]
+    },
+    "coche": true,
+    "direccion": {
+      "municipio": "irun",
+      "cp": 20000,
+      "barrio": "meaka",
+      "provincia": "gipuzkoa",
+      "ccaa": "País Vasco"
+    },
+    "sexo": "hombre",
+    "estado_civil": "casado",
+    "hijos": 2,
+    "idiomas": {
+      "espaniol": ["nativo", "intermedio"]
+    },
+    "peliculas": [1, 3, 4]
+  },{
+    "name": "Oscar",
+    "last_name": "González",
+    "email": "ogonzalez@cbnc.com",
+    "age": "1990-12-31",
+    "profesion": "Barrendero",
+    "salario_mensual_actual": 1650,    
+    "exp_profesional": {
+      "ayto_municipal":["Barrendero",5]
+    },
+    "aficiones": {
+      "verano": "viajar",
+      "invierno": ["lectura"]
+    },
+    "coche": false
+  },{
+    "name": "Susana",
+    "last_name": "Etxebeste",
+    "email": "ogonzalez@cbnc.com",
+    "age": "2002-07-31",
+
+    "aficiones": {
+      "verano": "viajar",
+      "invierno": ["lectura"]
+    },
+    "coche": false,
+    "sexo":"mujer"
+  },
+  {
+    "name": "Oscar",
+    "last_name": "Pérez",
+    "email": null,
+    "age": "1999-07-31",
+
+    "aficiones": {
+      "verano": "playa",
+      "invierno": ["viajar", "lectura"]
+    },
+    "coche": false,
+    "sexo":"hombre"
+  },
+  {
+    "name": "María",
+    "last_name": "Domínguez",
+    "email": null,
+    "age": "1963-07-31",
+    "profesion":"Matemática",
+    "aficiones": {
+      "verano": "playa",
+      "invierno": ["viajar", "lectura"]
+    },
+    "coche": false,
+    "sexo":"mujer"
+  },
+  {
+    "name": "Ana",
+    "last_name": "Rubio",
+    "email": null,
+    "age": "1988-07-31",
+    "profesion":"Traductora",
+    "salario_mensual_actual": 1400,
+    "aficiones": {
+      "verano": "playa",
+      "invierno": ["viajar", "lectura"]
+    },
+    "coche": true,
+    "sexo":"mujer"
+  },
+  {
+    "name": "Oscar"
+  },
+  {
+    "name": "Susana"
+  },
+  {
+    "name": "Diana"
+  }
+]
